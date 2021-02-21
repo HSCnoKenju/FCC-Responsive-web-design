@@ -1,0 +1,74 @@
+
+        body{
+            background-color: #c0392b; 
+         }
+         textarea {
+             resize: none;
+             margin: auto;
+             width: 90%;
+             padding:1rem;
+             border-radius: 1rem;
+             }
+ 
+         h1 {
+             text-align: center;
+             font-weight: 800;
+             font-size: 3rem;
+             line-height: 5rem;
+         }
+ 
+         #description {
+             text-align: center;
+             line-height: 2rem;
+         }
+ 
+         form {
+             background-color: #2980b9;
+             width: 80%;
+             margin: auto;
+             display: block;
+             padding: 1.2rem;
+             text-align: center;
+             opacity: .86;
+             border-radius: 1rem;
+            
+         }
+         #survey-form >*{
+             display: block;
+         }
+         #survey-form .field-input{
+             width: 90%;
+             margin: auto;
+             padding: 1.35rem 2%;
+             font-size: 1.25rem;
+             background: rgb(132, 95, 146);
+             border-radius: 1rem;
+             text-align: center;
+             box-sizing: border-box;
+             outline: none;
+             border:none
+         }
+         #survey-form label{
+             text-align: left;
+             color: #fff;
+             line-height: 2rem;
+         }
+         #survey-form p{
+             line-height: 3rem;
+             font-size: x-large;
+             font-weight: 600;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         }
+         #survey-form .form-btn{
+             margin:auto;
+             margin-top:3rem;
+             background: rgba(39, 174, 96,1.0);
+             color:#fff;
+             border-radius: 1rem;
+             cursor: pointer;
+             transition: 0.8s;
+         }
+         .form-btn:hover{
+             transform: scale(.96);
+         }
+ 
