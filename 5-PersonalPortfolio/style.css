@@ -1,0 +1,89 @@
+#welcome-section{
+    height: 100vh;
+    background-color: bisque;
+}
+#welcome-section *{
+    margin: auto;
+}
+#projects{
+    height: 100vh;
+    background-color: blueviolet;
+}
+#contact-me{
+    height: 100vh;
+    background-color: greenyellow;
+}
+#welcome-section h1{
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: center;
+    transform: translateY(45vh);
+}
+#welcome-section h2{
+    font-size: x-large;
+    font-weight: 300;
+    text-align: center;
+    transform: translateY(48vh);
+}
+#projects h1{
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: center;
+    transform: translateY(5vh);
+}
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: aquamarine;
+    z-index: 1;
+}
+
+.project-tile{
+    width: 98%;
+    height: auto;
+    background-color: brown;
+    border: 2px solid green;
+}
+.container{
+    transform: translateY(10vh);
+    width: 100%;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#contact-me a{
+    font-size: xx-large;
+}
+#contact-me p {
+    text-align: center;
+    transform: translateY(50vh);
+}
+.flex-container{
+    right: 0;
+    position: absolute;
+    display: flex;
+}
+.flex-container a{
+    margin: 2rem;
+    background-color: blueviolet;
+    padding: 1rem;
+    border-radius: 10%;
+    text-decoration: none;
+    color: wheat;
+
+}
+
+
+
+@media(max-width:1000px){
+    #navbar{
+        background-color: tomato;
+    }
+
+}
